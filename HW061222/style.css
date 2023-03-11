@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Press Start 2P', cursive;
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(2, 0, 36, 1) 50%);
+  color: red;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 100px;
+  align-items: center;
+}
+
+.title {
+  margin-bottom: 50px;
+}
+
+.users {
+  display: flex;
+  justify-content: space-between;
+  gap: 300px;
+  margin-bottom: 50px;
+  color: yellow;
+}
+
+.users span {
+  margin: 10px;
+  color: yellowgreen;
+}
+
+.start-btn {
+  width: 200px;
+  padding: 20px;
+  font-size: 28px;
+  font-family: 'Press Start 2P', cursive;
+  color: green;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.game-item,
+.player-item,
+.comp-item {
+  width: 200px;
+  height: 200px;
+}
+
+.start-round{
+  display: none;
+  text-align: center;
+  border: 5px solid red;
+  padding: 30px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.player-choice {
+  display: none;
+  text-align: center;
+  color:darkgray;
+  border: 5px solid blue;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.item-image {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  margin: 10px;
+  transition: all .3s;
+}
+
+.item-image:hover{
+  scale: 1.08;
+}
+
+.comp-item{
+  margin-right: 50px;
+}
+
+.message{
+ display: flex;
+}
+
+.next-round-btn{
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: 'Press Start 2P', cursive;
+  cursor: pointer;
+}

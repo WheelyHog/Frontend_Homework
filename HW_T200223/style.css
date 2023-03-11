@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.users-container{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    grid-gap: 20px;
+    justify-content: space-between;
+}
+
+.user_card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.online{
+    background: cornflowerblue;
+}

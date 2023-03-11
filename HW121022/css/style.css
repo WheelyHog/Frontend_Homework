@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+:focus{
+  outline: none;
+}
+
+.container {
+  background: conic-gradient(from -1.64deg at 52.89% 52.66%, #9FE6EA -34.2deg, #A5E3E7 85.25deg, #F0DAC2 153.64deg, #F7E3CD 280.49deg, #9FE6EA 325.8deg, #A5E3E7 445.25deg);
+  font-family: 'Happy Monkey', cursive;
+  font-weight: 400;
+  width: 2304px;
+  margin: 0;
+}
+
+form {
+  padding: 303px 412px 333px 380px;
+  width: 1512px;
+  display: flex;
+}
+
+.contact-inner {
+  display: flex;
+  flex-direction: column;
+  padding-left: 75px;
+  text-align: left;
+}
+
+.form-left {
+  background-color: #fff;
+  width: 851px;
+  border-radius: 20px 0 0 20px;
+}
+
+.form-right {
+  background: #5FC3CA;
+  width: 661px;
+  border-radius: 0 20px 20px 0;
+}
+
+.contact-header {
+  padding-top: 97px;
+  margin-bottom: 25px;
+  font-size: 64px;
+  line-height: 77px;
+  color: #000000;
+}
+
+.contact-text {
+  font-size: 16px;
+  line-height: 18px;
+  width: 578px;
+  color: #000;
+  margin-bottom: 47px;
+}
+
+.contact-text a {
+  color: rgba(95, 195, 202, 1);
+}
+
+.p-name {
+  width: 400px;
+  font-size: 13px;
+  line-height: 15.67px;
+  color: rgba(95, 195, 202, 1);
+  margin-bottom: 6px;
+}
+
+.input-name,
+.input-email,
+.input-message {
+  background-color: #f4f4f4;
+  border: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 14px;
+  border-radius: 5px 5px 0px 0px;
+  width: 427px;
+  margin-bottom: 40px;
+
+}
+
+/* .input-name {
+   border-bottom: 2px solid #5FC3CA; 
+   border-bottom: 2px solid #c0c0c0; 
+ } */ 
+.input-name>span.border {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #27ad8a;
+}
+.input-name:focus ~ .border{
+  width: 100%;
+  transition: 0.5s;
+}
+
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: rgba(192, 192, 192, 1);
+}
+
+.input-email {
+  border-bottom: 2px solid #c0c0c0;
+}
+
+.input-message {
+  border-bottom: 2px solid #c0c0c0;
+  margin-bottom: 109px;
+  resize: none;
+  /* color: rgba(192, 192, 192, 1); */
+}
+
+.submit {
+  font-family: 'Happy Monkey', cursive;
+  background-color: #5FC3CA;
+  border: none;
+  color: #fff;
+  padding: 12px -0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.1px;
+  border-radius: 10px;
+  width: 231px;
+  margin-bottom: 105px;
+  margin-left: 310px;
+}
+
+.form-right-img {
+  padding: 369px 93px 138px 93px;
+  width: 475px;
+}

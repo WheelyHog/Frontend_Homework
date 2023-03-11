@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1920px;
+  background-color: #fff;
+  font-family: 'ABeeZee', sans-serif;
+}
+
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.logo {
+  width: 74px;
+  height: 74px;
+  align-self: center;
+  transition: all .5s;
+}
+
+.logo:hover {
+  width: 60px;
+  height: 60px;
+  transform: translate(7px, 7px);
+}
+
+.social {
+  padding: 22px 0;
+}
+
+.social-link {
+  font-size: 36px;
+  margin: 0 15px;
+  color: #4fbfa5;
+  transition: all .3s;
+}
+
+.social-link:hover {
+  color: #00868a;
+}
+
+.nav {
+  background-color: #4fbfa5;
+  color: #fff;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.navbar,
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.menu-list li {
+  margin-top: 30px;
+  text-decoration: none;
+  margin-right: 99px;
+  list-style-type: none;
+  font-weight: 400;
+}
+
+.menu-list li a:hover {
+  transition: all 1s;
+  color: yellow;
+}
+
+.menu-item {
+  text-decoration: none;
+  color: #fff;
+}
+
+.contact {
+  background-color: #fff;
+  padding: 11px 51px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  font-style: italic;
+  margin: 23px 0 45px;
+  border: none;
+  transition: all .5s;
+}
+
+.contact:hover {
+  background-color: darkgrey;
+  color: yellow;
+}
+
+.slider {
+  background-color: #4fbfa5;
+  color: #fff;
+}
+
+.slider-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.slider-descr {
+  margin-right: 133px;
+  width: 416px;
+}
+
+.slider-title {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.slider-text {
+  font-size: 14px;
+  line-height: 150%;
+  font-style: italic;
+  margin-bottom: 40px;
+}
+
+.readmore {
+  background-color: #00868a;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 15px 25px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.readmore:hover {
+  border-radius: 30px;
+  color: yellow;
+}
+
+.slider-img {
+  margin-bottom: 57px;
+  overflow: hidden;
+}
+
+.slider-img img:hover {
+  scale: 1.05;
+  transition: all 1s;
+}
+
+.actual-gallery {
+  margin-bottom: 129px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.actual-gallery-item {
+  cursor: pointer;
+}
+
+.actual-title,
+.gallery-title {
+  margin-top: 146px;
+  text-align: center;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 150%;
+  color: #00868A;
+  margin-bottom: 60px;
+}
+
+.gallery-item-descr {
+  background-color: #00868A;
+  padding: 25px 30px;
+  margin-top: -5px;
+  display: flex;
+  width: 306px;
+}
+
+.gallery-item-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-item-image img:hover {
+  transition: all .5s;
+  scale: 1.05;
+}
+
+.sticker-new {
+  position: absolute;
+  padding: 8px;
+  background: #4FBFA5;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-style: italic;
+  top: 30px;
+  left: 30px;
+}
+
+.gallery-item-name {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 21px;
+  color: #fff;
+  margin-right: 15px;
+}
+
+.gallery-item-btn {
+  border: 1px solid #fff;
+  padding: 15px;
+  background: transparent;
+}
+
+.footer-social {
+  float: right;
+}
+
+.swiper-slide {
+  width: 300px;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+.slide-img-inner {
+  overflow: hidden;
+  border: 1px solid #4FBFA5;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.slide-img {
+  transition: all .3s;
+}
+
+.slide-img:hover {
+  scale: 1.05;
+}
+
+.slide-descr {
+  background: #4FBFA5;
+  padding: 20px;
+  color: #fff;
+  width: 300px;
+  margin: -4px auto 0;
+}
+
+.slide-descr-name {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 21px;
+  margin-bottom: 30px;
+}
+
+.slide-descr-price {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.slide-descr-price span {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.slide-descr-buy {
+  background-color: #00868a;
+  padding: 8px 25px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  color: #fff;
+  transition: all .3s;
+}
+
+.slide-descr-buy:hover {
+  background-color: #fff;
+  color: #00868A;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #00868A;
+}
