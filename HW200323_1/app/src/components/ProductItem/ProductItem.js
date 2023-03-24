@@ -8,7 +8,7 @@ function ProductItem({id, name, price, count, incr_count, decr_count, deleteProd
             <h2>{name}</h2>
             <h4>Price: {price} $</h4>
             <div className={s.triggers}>
-                <button onClick={() => incr_count(id)}>+</button>
+                <button onClick={(event) => incr_count(id, event)}>+</button>
                 {count}
                 <button onClick={() => decr_count(id)}>-</button>
             </div>

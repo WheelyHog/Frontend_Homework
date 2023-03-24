@@ -27,7 +27,7 @@ function App() {
         count.value = ''
     }
 
-    const incr_count = (id) => {
+    const incr_count = (id, event) => {
         const newProducts = products.map(elem => {
             if (elem.id == id) {
                 elem.count += 1
@@ -38,6 +38,7 @@ function App() {
     }
 
     const decr_count = (id) => {
+
         const newProducts = products.map(elem => {
             if (elem.id == id) {
                 if (elem.count > 0) {
@@ -52,6 +53,7 @@ function App() {
 
     const deleteProduct = (id, event) => {
         event.preventDefault()
+
         const newProducts = products.filter(elem => elem.id != id)
         setProducts(newProducts)
     }
